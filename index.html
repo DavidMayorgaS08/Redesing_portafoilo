@@ -15,5 +15,124 @@
     <div class="cont_fondo">
         <img class="fondo" src="./img/fondo.gif">
     </div>
+    <section class="cont">
+        <div class="cont_icons">
+            <nav class="cont_bar ico">
+                <input type="checkbox" id="check" onclick="verLista()">
+                <label for="check">
+                    <i class="fa-solid fa-list"></i>  
+                </label>
+            </nav>
+            <nav class="cont_sub_bar ico">
+                <input type="checkbox" id="check" onclick="volver()">
+                <label for="check">
+                    <i class="fa-solid fa-house"></i>  
+                </label>
+            </nav>
+        </div>
+        <nav class="cont_listado">
+            <div class="cont_new">
+                <p class="text_new" onclick="verTrabajos()">Trabajos</p>
+            </div>
+            <div class="cont_old">
+                <p class="text_old" onclick="verProyectos()">Proyectos</p>
+            </div>
+        </nav>
+        <div class="cont_info">
+            <section class="cont_titulos">
+                <div class="cont_titulo">
+                    <p class="titulo">PORTAFOLIO</p>
+                </div>
+                <div class="cont_subtitulo">
+                    <p class="subtitulo">David Mayorga</p>
+                </div>
+            </section>
+            <section class="cont_proyectos_new">
+                <div class="cont_previews">
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/quien soy.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/factura.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/calendario.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/formulario.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/presupuesto.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                    <div class="cont_preview">
+                        <div class="cont_img"></div>
+                        <img src="./img/tienda.png">
+                        <div class="cont_btn">
+                            <button class="btn"><a href="#">Visitar</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_textos">
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Quien soy</p>
+                        </label>
+                    </div>
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Factura</p>
+                        </label>
+                    </div>
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Calendario</p>
+                        </label>
+                    </div>
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Formulario</p>
+                        </label>
+                    </div>
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Presupuesto</p>
+                        </label>
+                    </div>
+                    <div class="cont_text">
+                        <input type="checkbox" id="check2">
+                        <label for="check2">
+                            <p class="text" onclick="preview()">Tienda</p>
+                        </label>
+                    </div>
+                </div>
+            </section>
+            <section class="cont_proyectos_old"></section>
+        </div>
+    </section>
 </body>
 </html>
